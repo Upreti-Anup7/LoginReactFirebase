@@ -1,0 +1,90 @@
+.body_main {
+  background-image: url(./img/hotel1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #741c6c;
+}
+
+.body_container {
+  background-color: #ffffff;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1px;
+  max-height: 100%;
+}
+.body_contents {
+  float: left;
+  width: 100%;
+  max-height: 700px;
+}
+
+.body_content {
+  background-color: #741c6c;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.body_image > img {
+  width: 100%;
+  max-height: 700px;
+  margin-left: -100px;
+  z-index: -1;
+  mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+  object-fit: cover;
+  overflow: auto;
+  float: right;
+  flex-basis: 0;
+}
+
+.body_deals {
+  background-color: #f3f2f2;
+  padding-bottom: 10px;
+  max-height: 500px;
+}
+
+.deals_section {
+  display: flex;
+  justify-content: space-between;
+  max-height: 500px;
+}
+
+.video {
+  width: 500px;
+  max-height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  overflow: auto;
+}
+
+.body_aside {
+  background-color: rgb(234, 237, 237);
+  float: right;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  object-fit: contain;
+  overflow: auto;
+  flex-basis: 0;
+}
+
+.deal_title {
+  background-color: #f8c666;
+  margin: 10px 10px 0 0;
+  border-radius: 1px solid #ffffff;
+  display: flex;
+}
+.deal_title > h1 {
+  color: #ffffff;
+  margin-left: 10px;
+}

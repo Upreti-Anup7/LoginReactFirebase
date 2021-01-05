@@ -1,0 +1,26 @@
+.deals {
+  display: flex;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  /* max-width: 100px;
+  max-height: 400px; */
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1;
+}
+
+.deals_info {
+  width: 100%;
+}
+
+.r_rating {
+  display: flex;
+}
+
+.getDeals {
+  display: flex;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+}
